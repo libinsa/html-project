@@ -1,0 +1,176 @@
+1.
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The little shop</title>
+    <link rel="icon" href="OIP (1).jpeg">
+</head>
+<body>
+    
+    <h1>welcome to the little Taco Shop</h1>
+    <ul>
+        <nav>
+        <li><a href="#aaa">about LTS</a></li>
+        <li><a href="#bbb">our menu</a></li>
+        <li><a href="contact.html">about us</a></li>
+        </nav>
+    </ul>
+    <img src="taco images.jpg" alt="taco" height="200" width="300">
+    <figcaption>
+        Tacos and a drink
+    </figcaption>
+    <hr />
+    <section id="aaa">
+    <h2>About  <abbr title="Little Taco Shop">LTS</abbr> </h2>
+
+    <p> <abbr title="Little taco shop">LTS</abbr> was founded in 2022.</p>
+    
+    <h2>Taco Trivia</h2>
+    <aside>
+        <details>
+            <summary>when did taco appear</summary>
+            <p>ITS appear in 2000</p>
+        </details>
+    </aside>
+    </section>
+    <hr />
+
+    <section id="bbb">
+    <h2>OUR MENU</h2>
+    <table border="1">
+        <tr>
+        <caption>our tacos</caption>
+        </tr>
+        <tr>
+            <th>food</th>
+            <th>qty</th>
+            <th>price</th>
+        </tr>
+        <tr>
+        
+            <th rowspan="3">crunchy</th>
+            <td>1</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <th rowspan="3">snack</th>
+            <td>4</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td colspan="3">all the foods is avalaiable</td>
+        </tr>
+    </table>
+    </section>
+
+    <hr />
+    <footer>
+        <p>copyright &copy;amma</p>
+    </footer>
+    
+
+
+</body>
+</html>
+2.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The taco shop</title>
+</head>
+<body>
+    
+    <h1>THE LITTLE TACO SHOP HOURS</h1>
+    <ul>
+        <li><a href="index.html">go back</a></li>
+        <li><a href="shop.html">next page</a></li>
+    </ul>
+
+    <img src="taco image 2.jpeg" height="200" width="300" alt="taco1">
+    <figcaption>A TRAY of tast shop</figcaption>
+    <hr />
+    <p>we are open 7 days a week</p>
+    <dl>
+        <dt>sunday-thursday</dt>
+        <dd>11am-9am</dd>
+        <dt>friday-saturday</dt>
+        <dd>2am-9p</dd>
+    </dl>
+    <a href="#">back to top</a>
+    <hr />
+    <center>
+    <footer>
+        <p>copyright &copy; The LIttle taco shop</p>
+    </footer>
+    </center>
+</body>
+</html>
+
+3.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>shop details</h3>
+    <ul>
+        <li><a href="contact.html">previous page</a></li>
+    </ul>
+    <img src="taco images.jpg" alt="shop" height="200" width="300">
+    <figcaption>
+        menu cards
+    </figcaption>
+    <hr />
+    <h3>our contact form</h3>
+    <fieldset>
+        <legend>Add your details</legend>
+
+    <form action="https:http/libin"></form>
+    <p>
+    <label for="Name">Name</label>
+    <input type="text" placeholder="enter your name">
+    </p>
+    <p>
+        <label for="email">email</label>
+        <input type="text" placeholder="enter your mail">
+
+    </p>
+    <p>
+
+
+        <label for="Your Message">Your Message:</label><br>
+        
+        <textarea name="Your Message" id="Your Message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <hr />
+        </fieldset>
+        <hr />
+        <h4>phone:<a href="tel:+78787878787">7878787878787</a></h4>
+    
+</body>
+</html>
