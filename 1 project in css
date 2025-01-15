@@ -1,0 +1,94 @@
+1.index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="sam">
+        <center>
+    <h1>CSS Selector</h1>
+    </center>
+    </header>
+    <main class="sam">
+    <ol>
+   <li><a href="asas.html">Hello Again</a></li>
+   <li> <a href="roman.html">food</a></li>
+    <li><a href="https://www.instagram.com/">app</a></li>
+    <li><a href="https://www.apple.com/in/apple-tv-plus/">money</a></li>
+    </ol>
+    <p>Learn more about making money <a href="https://earnkaro.com/blog/best-money-earning-apps/">Money Apps</a></p>
+
+    <br>
+    <center>
+    <div class="samm"></div>
+
+    </div>
+    </center>
+    </main>
+   
+
+
+    
+</body>
+</html>
+
+2.css
+
+.sam{
+    border: 2px dashed brown;
+    padding:2em;
+    margin: 2em;
+    margin-right: 3em;
+    outline: 4px solid black ;
+    outline-offset:6px;
+}
+
+.samm{
+    border: 8px solid violet;
+    border-radius: 9px;
+    height: 100px;
+    width: 100px;
+    outline: 4px dashed white;
+    outline-offset: 5px;
+    background-color: blanchedalmond;
+
+}
+
+header{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:focus{
+    opacity: 2;
+}
+
+ol{
+    list-style-type: lower-roman;
+
+}
+
+ol li:nth-child(2) {
+    color: greenyellow;
+}
+
+::marker{
+    color: black;
+}
+
+
