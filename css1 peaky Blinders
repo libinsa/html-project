@@ -1,0 +1,112 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center>
+    <h1>sam libin</h1>
+    <div>
+     <img src="./peaky.jpeg" height="399px" width=" 400px" alt="">
+
+        <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing </span>elit. <b>Voluptate natus nisi hic voluptatem rerum! Unde, dolor a enim,</b> atque, iste iusto magni quas nisi maxime facere odio delectus minima aliquid? Quae est quos quaerat?</p>
+        
+        <ul >
+            <li>Breaking Bad</li>
+            <li>Peaky Blindrs</li>
+            <li>Dark </li>
+        </ul>
+
+        <h4>Chracter in peaky blinders</h4>
+        <main>
+        <p class="sam">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque voluptas, culpa incidunt veniam at earum voluptate laudantium a sint enim minus.</p>
+        <p class="sam">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo repudiandae exercitationem odio vero, quis quaerat ducimus dicta neque aspernatur, sint aut. Vitae expedita sunt quo sed numquam dolorum quas in aperiam nulla.</p>
+       </main>
+
+       <div class="www"></div>
+       <div class="www"></div>
+   
+        
+    </div>
+
+
+
+
+    </center>
+    
+</body>
+</html>
+
+2.CSS
+
+html{
+    background-color: teal;
+}
+
+div{
+    background-color: azure;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+img{
+    opacity: ;
+}
+
+h1{
+    color: aliceblue;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+b{
+    vertical-align: super;
+}
+
+span{
+    color: blueviolet;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li::before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 16px;
+    background-image: url('rockets.png');
+    background-size: cover;
+}
+
+h4{
+    margin-left: 3px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+}
+
+main p{
+    background-color: violet;
+    margin: 18px 10px 20px 10px;
+    padding: 19px;
+    
+}
+
+.www{
+    height: 15px;
+    width: 15px;
+    background-color: teal;
+    margin: 10px;;
+    
+}
