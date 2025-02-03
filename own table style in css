@@ -1,0 +1,89 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body><center>
+  <div class="sam">TABLE STYLE IN CSS</div>
+  </center>
+  <br>
+  <br>
+  <center>
+ <table >
+  <thead>
+    <th>NAME</th>
+    <th>AGE</th>
+    <th>GROUPS</th>
+    <th>ACITIVE</th>
+  </thead>
+  <tr>
+    <td>lIBIN</td>
+    <td>21</td>
+    <td>ECE</td>
+    <td>currently acitive</td>
+  </tr>
+  <tr>
+    <td>SAM</td>
+    <td>88</td>
+    <td>cse</td>
+    <td>not acitive</td>
+  </tr>
+  <tr>
+    <td>Roman</td>
+    <td>99</td>
+    <td>EEE</td>
+    <td>Not acitive</td>
+  </tr>
+  <tr>
+    <td>REIGNS</td>
+    <td>88</td>
+    <td>IT</td>
+    <td>ACitive</td>
+  </tr>
+ </table>
+ </center>
+ 
+     
+
+</body>
+</html>
+
+2. CSS
+
+.sam{
+    color: darkgreen;
+    margin-top: 70px;
+}
+table{
+    border-collapse: collapse;
+    padding: 12px 12px;
+}
+thead th{
+    font-weight: bolder;
+    background-color:gray;
+    padding: 10px;
+    
+
+}
+
+tr td{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+tr:nth-of-type(4){
+    border-bottom: 2px solid black;
+
+}
+
+tr:nth-of-type(odd){
+    border-bottom:1px solid white;
+}
+
+tr:nth-of-type(2){
+    border-bottom: 2px solid white;
+}
