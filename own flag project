@@ -1,0 +1,59 @@
+HTML
+
+<div class="main">
+  <div class="top">
+    The Flag
+
+  </div>
+  <div class="center">
+    <center>
+    <div class="sam">of laos
+
+    </div>
+    </center>
+
+
+  </div>
+
+  <div class="bottom">
+
+  </div>
+
+
+</div>
+
+2.CSS
+.top{
+    height: 70px;
+    width: 300px;
+    background-color: darkred;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.center{
+    height: 70px;
+    width: 300px;
+    background-color:darkblue;
+}
+
+.bottom{
+    height: 70px;
+    width: 300px;
+    background-color: darkred;
+}
+
+.sam{
+    height: 70px;
+    width: 60px;
+    background-color: antiquewhite;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
