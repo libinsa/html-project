@@ -1,0 +1,62 @@
+1.HTML
+
+ <div class="head">
+<div class="main">
+  <div class="one"><h5>The rockets</h5>
+    <img src="css/rockets.png" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam odio soluta sit, repudiandae ipsa ea perspiciatis voluptates ratione asperiores deleniti eos, iure optio error et fuga quas praesentium quibusdam!</p>
+
+  </div>
+  </div>
+  <div class="main1">
+  <div class=" two"><h5>The Cats</h5>
+    <img src="download.jpeg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae pariatur sequi hic impedit libero possimus totam molestias, deleniti quia dolores dolorum quibusdam reiciendis. Quos dolorem amet itaque expedita? Reprehenderit, repellendus harum excepturi vitae dicta in enim doloribus modi voluptatum perferendis.</p>
+  </div>
+  </div>
+  </div>
+  
+
+<div class="footer"> this is cats page</div>
+
+2.CSS
+.head{
+    display: flex;
+    flex-direction: row;
+}
+
+.main{
+    padding: 20px;
+}
+
+.one img{
+    float: left;
+    margin-right: 25px;
+}
+
+.two img{
+    float: right;
+    margin-left: 25px;
+
+}
+
+.one {
+    background-color: aquamarine;
+    display: flow-root;
+    border: 2px solid black;
+}
+
+.two{
+    background-color: aqua;
+    display: flow-root;
+    border: 2px solid black;
+}
+.main{
+    float: left;
+}
+.main1{
+    float: right;
+}
+
+.footer{
+    background-color: blueviolet;
+    text-align: center;
+}
